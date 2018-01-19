@@ -27,7 +27,7 @@ if (isServer) then { //This scope is only for the server
 	OpforWin = 0;
 	
 	ace_cookoff_enable = false;
-	ace_cookoff_ammoCookoffDuration = 0;
+	ace_cookoff_enableAmmoCookoff = false;
 	ace_hearing_enableCombatDeafness = false;
 	ACE_weather_syncWind = false;
 	ACE_wind = [0,0,0];
