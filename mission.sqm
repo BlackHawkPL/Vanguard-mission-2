@@ -16,10 +16,10 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={19562.838,104.18925,14988.246};
-		dir[]={-0.53518641,-0.34080237,0.77296388};
-		up[]={-0.19400296,0.94013309,0.28019583};
-		aside[]={0.82218134,9.9325553e-007,0.56926006};
+		pos[]={19603.127,80.610031,12938.048};
+		dir[]={0.8350246,-0.38972688,-0.38850763};
+		up[]={0.35339507,0.92090005,-0.16442363};
+		aside[]={-0.42186904,-1.4987891e-006,-0.9067148};
 	};
 };
 binarizationWanted=0;
@@ -15372,7 +15372,7 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={19724.729,25.90065,14759.253};
+				position[]={19724.729,25.900959,14759.253};
 				angles[]={0.073199101,3.3038385,6.2698507};
 			};
 			side="Empty";
@@ -15380,12 +15380,12 @@ class Mission
 			class Attributes
 			{
 				lock="UNLOCKED";
-				init="t1 addMagazine ""rhs_mag_3bm46_8""; t1 addMagazine ""rhs_mag_3bk31_3""; t1 addMagazine ""rhs_mag_3bk31_3""; t1 addMagazine ""rhs_mag_3of26_7"";";
+				init="call{if (local this) then {t1 addMagazine ""rhs_mag_3bm46_8""; t1 addMagazine ""rhs_mag_3bk31_3""; t1 addMagazine ""rhs_mag_3bk31_3""; t1 addMagazine ""rhs_mag_3of26_7"";}}";
 				name="t1";
 			};
 			id=568;
 			type="rhs_t90a_tv";
-			atlOffset=-0.094308853;
+			atlOffset=-0.093999863;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -15605,7 +15605,7 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={18644.396,38.161022,13833.503};
+				position[]={18644.396,38.161236,13833.503};
 				angles[]={0.0877726,2.7276878,0.17032668};
 			};
 			side="Empty";
@@ -15613,12 +15613,12 @@ class Mission
 			class Attributes
 			{
 				lock="UNLOCKED";
-				init="t2 addMagazine ""rhs_mag_3bm46_8""; t2 addMagazine ""rhs_mag_3bk31_3""; t2 addMagazine ""rhs_mag_3bk31_3""; t2 addMagazine ""rhs_mag_3of26_7"";";
+				init="call{if (local this) then {t2 addMagazine ""rhs_mag_3bm46_8""; t2 addMagazine ""rhs_mag_3bk31_3""; t2 addMagazine ""rhs_mag_3bk31_3""; t2 addMagazine ""rhs_mag_3of26_7"";}}";
 				name="t2";
 			};
 			id=569;
 			type="rhs_t90a_tv";
-			atlOffset=-0.11621094;
+			atlOffset=-0.11599731;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -15838,20 +15838,20 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={19617.066,76.599678,12930.776};
-				angles[]={6.2658529,1.7708881,0.041309625};
+				position[]={19617.066,76.599251,12930.777};
+				angles[]={6.2658539,1.7708808,0.041311946};
 			};
 			side="Empty";
 			flags=4;
 			class Attributes
 			{
 				lock="UNLOCKED";
-				init="t3 addMagazine ""rhs_mag_3bm46_8""; t3 addMagazine ""rhs_mag_3bk31_3""; t3 addMagazine ""rhs_mag_3bk31_3""; t3 addMagazine ""rhs_mag_3of26_7"";";
+				init="call{if (local this) then {t3 addMagazine ""rhs_mag_3bm46_8""; t3 addMagazine ""rhs_mag_3bk31_3""; t3 addMagazine ""rhs_mag_3bk31_3""; t3 addMagazine ""rhs_mag_3of26_7"";}}";
 				name="t3";
 			};
 			id=570;
 			type="rhs_t90a_tv";
-			atlOffset=-0.095558167;
+			atlOffset=-0.096000671;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -16071,7 +16071,7 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={18635.898,35.961868,13884.557};
+				position[]={18635.898,35.961704,13884.557};
 				angles[]={0.062587507,2.8397379,0.043964844};
 			};
 			side="Empty";
@@ -16079,12 +16079,12 @@ class Mission
 			class Attributes
 			{
 				lock="UNLOCKED";
-				init="t5 addMagazine ""rhs_mag_3bm46_8""; t5 addMagazine ""rhs_mag_3bk31_3""; t5 addMagazine ""rhs_mag_3bk31_3""; t5 addMagazine ""rhs_mag_3of26_7"";";
+				init="call{if (local this) then {t5 addMagazine ""rhs_mag_3bm46_8""; t5 addMagazine ""rhs_mag_3bk31_3""; t5 addMagazine ""rhs_mag_3bk31_3""; t5 addMagazine ""rhs_mag_3of26_7"";}}";
 				name="t5";
 			};
 			id=572;
 			type="rhs_t90a_tv";
-			atlOffset=-0.095840454;
+			atlOffset=-0.096004486;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -19138,7 +19138,7 @@ class Mission
 			type="rectangle";
 			a=200;
 			b=10;
-			angle=226.9277;
+			angle=226.92763;
 			id=762;
 			atlOffset=-2.46138;
 		};
@@ -19388,7 +19388,7 @@ class Mission
 			class Attributes
 			{
 				lock="UNLOCKED";
-				init="t12 addMagazine ""rhs_mag_3bm46_8""; t12 addMagazine ""rhs_mag_3bk31_3""; t12 addMagazine ""rhs_mag_3bk31_3""; t12 addMagazine ""rhs_mag_3of26_7"";";
+				init="call{if (local this) then {t12 addMagazine ""rhs_mag_3bm46_8""; t12 addMagazine ""rhs_mag_3bk31_3""; t12 addMagazine ""rhs_mag_3bk31_3""; t12 addMagazine ""rhs_mag_3of26_7"";}}";
 				name="t12";
 			};
 			id=780;
@@ -19613,7 +19613,7 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={19715.648,25.451767,14774.409};
+				position[]={19715.648,25.451351,14774.409};
 				angles[]={0.050614551,3.3038385,6.2671809};
 			};
 			side="Empty";
@@ -19621,12 +19621,12 @@ class Mission
 			class Attributes
 			{
 				lock="UNLOCKED";
-				init="t13 addMagazine ""rhs_mag_3bm46_8""; t13 addMagazine ""rhs_mag_3bk31_3""; t13 addMagazine ""rhs_mag_3bk31_3""; t13 addMagazine ""rhs_mag_3of26_7"";";
+				init="call{if (local this) then {t13 addMagazine ""rhs_mag_3bm46_8""; t13 addMagazine ""rhs_mag_3bk31_3""; t13 addMagazine ""rhs_mag_3bk31_3""; t13 addMagazine ""rhs_mag_3of26_7"";}}";
 				name="t13";
 			};
 			id=781;
 			type="rhs_t90a_tv";
-			atlOffset=-0.1115818;
+			atlOffset=-0.1119976;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -20898,7 +20898,7 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={18652.002,38.938564,13851.06};
+				position[]={18652.002,38.938423,13851.06};
 				angles[]={0.070546202,2.7276878,0.26059511};
 			};
 			side="Empty";
@@ -20906,12 +20906,12 @@ class Mission
 			class Attributes
 			{
 				lock="UNLOCKED";
-				init="t22 addMagazine ""rhs_mag_3bm46_8""; t22 addMagazine ""rhs_mag_3bk31_3""; t22 addMagazine ""rhs_mag_3bk31_3""; t22 addMagazine ""rhs_mag_3of26_7"";";
+				init="call{if (local this) then {t22 addMagazine ""rhs_mag_3bm46_8""; t22 addMagazine ""rhs_mag_3bk31_3""; t22 addMagazine ""rhs_mag_3bk31_3""; t22 addMagazine ""rhs_mag_3of26_7"";}}";
 				name="t22";
 			};
 			id=794;
 			type="rhs_t90a_tv";
-			atlOffset=-0.0688591;
+			atlOffset=-0.069000244;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -21131,7 +21131,7 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={18630.109,36.239418,13842.145};
+				position[]={18630.109,36.239349,13842.145};
 				angles[]={6.2205977,2.7276878,0.093060948};
 			};
 			side="Empty";
@@ -21139,12 +21139,12 @@ class Mission
 			class Attributes
 			{
 				lock="UNLOCKED";
-				init="t23 addMagazine ""rhs_mag_3bm46_8""; t23 addMagazine ""rhs_mag_3bk31_3""; t23 addMagazine ""rhs_mag_3bk31_3""; t23 addMagazine ""rhs_mag_3of26_7"";";
+				init="call{if (local this) then {t23 addMagazine ""rhs_mag_3bm46_8""; t23 addMagazine ""rhs_mag_3bk31_3""; t23 addMagazine ""rhs_mag_3bk31_3""; t23 addMagazine ""rhs_mag_3of26_7"";}}";
 				name="t23";
 			};
 			id=795;
 			type="rhs_t90a_tv";
-			atlOffset=-0.075931549;
+			atlOffset=-0.076000214;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -22453,18 +22453,19 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={19598.367,76.738274,12927.517};
-				angles[]={0.062584557,2.6609988,0.066567369};
+				position[]={19598.367,76.738197,12927.517};
+				angles[]={0.062587507,2.6609988,0.066566855};
 			};
 			side="Empty";
 			flags=4;
 			class Attributes
 			{
 				lock="UNLOCKED";
+				name="b1";
 			};
 			id=810;
 			type="rhs_bmp3mera_msv";
-			atlOffset=-0.17192078;
+			atlOffset=-0.17199707;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -23286,18 +23287,19 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={19617.873,77.141167,12944.808};
-				angles[]={0.0013372133,1.3947697,0.034652505};
+				position[]={19617.873,77.140816,12944.808};
+				angles[]={0.0013439035,1.3947624,0.034644786};
 			};
 			side="Empty";
 			flags=4;
 			class Attributes
 			{
 				lock="UNLOCKED";
+				name="b2";
 			};
 			id=819;
 			type="rhs_bmp3mera_msv";
-			atlOffset=-0.15264893;
+			atlOffset=-0.15299988;
 			class CustomAttributes
 			{
 				class Attribute0
