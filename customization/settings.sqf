@@ -32,6 +32,19 @@ if (isServer) then { //This scope is only for the server
 	ACE_weather_syncWind = false;
 	ACE_wind = [0,0,0];
 	setWind [2,2, true];
+
+
+	{
+        _x addeventhandler ["fired", {
+            _this spawn {
+                params ["_v","","_m","","_a"];
+                if (_a isKindOf 'ShellBase') then {
+                    sleep 0.2;
+                    _v setWeaponReloadingTime [gunner _v,_m,0.75];
+                };
+            };
+        }];
+    } forEach call {_vehs = []; {if (typeOf _x isKindOf 'Tank') then {_vehs pushBack _x};} foreach vehicles; _vehs;};
 };
 
 if (!isDedicated) then { //This scope is only for the player
