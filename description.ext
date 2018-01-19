@@ -39,5 +39,13 @@ class Params {
 		default = 3;
     
     };
-	
+
+	class ai_drivers {
+    
+		title = "Enable AI drivers";
+		texts[] = {"no", "yes"};
+		values[] = {0, 1};
+		default = 0;
+    
+    };
 };
