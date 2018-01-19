@@ -40,7 +40,7 @@ if (isServer) then { //This scope is only for the server
                 params ["_v","","_m","","_a"];
                 if (_a isKindOf 'ShellBase') then {
                     sleep 0.2;
-                    _v setWeaponReloadingTime [gunner _v,_m,0.75];
+                    [_v, [gunner _v,_m,0.75]] remoteExec ["setWeaponReloadingTime", gunner _v];
                 };
             };
         }];
