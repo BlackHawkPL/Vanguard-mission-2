@@ -44,7 +44,7 @@ if (isServer) then { //This scope is only for the server
                 };
             };
         }];
-    } forEach call {_vehs = []; {if (typeOf _x isKindOf 'Tank') then {_vehs pushBack _x};} foreach vehicles; _vehs;};
+    } forEach call {_vehs = []; {if (typeOf _x == "rhsusf_m1a2sep1wd_usarmy") then {_vehs pushBack _x};} foreach vehicles; _vehs;};
 };
 
 if (!isDedicated) then { //This scope is only for the player
